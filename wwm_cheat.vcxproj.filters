@@ -13,6 +13,12 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{d7c90c0b-c9fe-48d9-bfb2-44a12000113a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\lib">
+      <UniqueIdentifier>{203cb68b-c24b-484a-b653-0ae282b492ab}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="sig.hpp">
@@ -32,5 +38,13 @@
     <ClCompile Include="dllmain.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="src\lib\libMinHook.x64.lib">
+      <Filter>src\lib</Filter>
+    </Library>
+    <Library Include="src\lib\libMinHook.x64d.lib">
+      <Filter>src\lib</Filter>
+    </Library>
   </ItemGroup>
 </Project>
